@@ -35,3 +35,5 @@ py manage.py runserver
 ```
 
 # Hasil
+- Profile
+![image alt](https://github.com/rizkakhrn/portofolio-django/blob/1e5b4b11481cc61df1392acd7f7cd8454438a7c8/profile.png)
