@@ -33,3 +33,5 @@ cd [nama project]
 ```sh
 py manage.py runserver
 ```
+
+# Hasil
