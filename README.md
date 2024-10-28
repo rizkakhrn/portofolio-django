@@ -4,3 +4,32 @@ Portofolio yang dibuat menggunakan framework Django untuk memenuhi tugas mata ku
 
 ## Instal Django
 Pastikan sudah menginstal python dan pip
+
+- Buat folder project dan masuk ke cmd
+```sh
+cd [nama folder]
+```
+- Buat virtual environment
+```sh
+py -m venv [nama virtual environment]
+```
+- Aktifkan virtual environment
+```sh
+[nama folder]\Scripts\activate.bat
+```
+- Install Django
+```sh
+py -m pip install Django
+```
+- Buat project django
+```sh
+django-admin startproject [nama project]
+```
+- Masuk ke project yag sudah dibuat
+```sh
+cd [nama project]
+```
+- Jalankan project Django
+```sh
+py manage.py runserver
+```
