@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family: 'Poppins';
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #D4BDAC;
+    overflow: hidden;
+    list-style: none;
+    margin: 10px;
+    padding: 0px;
+}
+
+nav a{
+    color: #493628;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+nav li{
+    float: left;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.photo{
+    float: right;
+    width: 25%;
+    border-radius: 5%;
+    margin: 50px;
+}
+
+.profil{
+    margin: 70px;
+    font-size: 65px;
+}
+
+.deskripsi{
+    margin: 70px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.this{
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.education{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.edu{
+    background-color: #CCD3CA;
+    padding: 20px;
+    border-radius: 10px;
+    width: 530px;
+    height: 190px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.uni{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #493628;
+}
+
+.desc{
+    margin-top: 0px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.ex{
+    background-color: #CCD3CA;
+    padding: 20px;
+    border-radius: 10px;
+    width: 560px;
+    height: 290px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.desc-exp{
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.social{
+    background-color: #CCD3CA;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    align-items: center;
+    gap: 15px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-social{
+    font-size: 20px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.desc-social{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.desc-social:hover{
+    color: #0073b1;
+}
+
+.social i{
+    font-size: 60px;
+    margin-left: 20px;
+    justify-self: center;
+}

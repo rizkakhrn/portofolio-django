@@ -1,0 +1,15 @@
+{% extends "myapp/base.html" %}
+{% load static %}
+
+{% block title %}Profile{% endblock title %}
+
+{% block content %}
+    <img src="{% static 'myapp/image/profile.jpg'%}" alt="profile" class="photo">
+    <h1 class="profil">Hello! <br>I'm Rizka Nabila Khairani</h1>
+    <p class="deskripsi">Seorang mahasiswa Pendidikan Ilmu Komputer di Universitas 
+        Pendidikan Indonesia, memiliki rasa ingin tahu yang cukup tinggi serta 
+        memiliki ketertarikan di bidang teknologi. Dikenal
+        sebagai pribadi yang bisa secara individu maupun tim. 
+    </p>   
+
+{% endblock content %}
